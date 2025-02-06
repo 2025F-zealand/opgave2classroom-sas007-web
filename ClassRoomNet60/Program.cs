@@ -8,4 +8,9 @@ public class student
 
     public int BirthDay;
 
+    public student (string name, int birthMonth, int birthDay) {
+        Name = name;
+        BirthMonth = birthMonth;
+        BirthDay = birthDay;
+    }
 }
